@@ -5,8 +5,7 @@ char s[256];
 char stack[20];
 int top = -1;
 int main(){
-
-    gets(s);
+    scanf("%[^\n]",s);
     for(int i = 0; s[i] != '@' ;i++){
         switch (s[i]){
         case '(':
