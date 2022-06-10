@@ -8,7 +8,7 @@ int top = -1;
 long temp = 0;
 long n;
 int main(){
-    scanf("%[^\n]",s)
+    scanf("%[^\n]",s);
 
     int i = 0;
     char currentChar = s[0];
