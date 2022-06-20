@@ -4,7 +4,7 @@ int parent[5001] = {0};
 
 int find(int x){
     if(parent[x] == x) return x;
-    patent[x] = find(parent[x]);    
+    parent[x] = find(parent[x]);    
     return parent[x];
     
 }
